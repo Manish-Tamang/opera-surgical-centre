@@ -56,6 +56,8 @@ To run this project, you will need to add the following environment variables to
 ![App Screenshot](https://github.com/Manish-Tamang/opera-surgical-centre/blob/main/src/images/banner.png?raw=true)
 
 ![App Screenshot](https://github.com/Manish-Tamang/opera-surgical-centre/blob/main/src/images/Screenshot%202024-08-14%20072850.png?raw=true)
+
+![App Screenshot](![App Screenshot](https://github.com/Manish-Tamang/opera-surgical-centre/blob/main/src/images/Screenshot%202024-08-14%20072850.png?raw=true))
 ## Run Locally
 
 Clone the project
