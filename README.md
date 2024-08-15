@@ -19,7 +19,8 @@ A college assignment to create a clinic management system.
 - Dynamic Email using Nodemailer to User
 - Custom Calender
 - Account Activation logic etc.
-- Pharmacy Ecommerce store
+- Pharmacy Ecommerce store.
+- Custom Loader
 
 ## Environment Variables
 
@@ -58,6 +59,14 @@ To run this project, you will need to add the following environment variables to
 ![App Screenshot](https://github.com/Manish-Tamang/opera-surgical-centre/blob/main/src/images/Screenshot%202024-08-14%20082813.png?raw=true)
 
 ![App Screenshot](https://github.com/Manish-Tamang/opera-surgical-centre/blob/main/src/images/Screenshot%202024-08-14%20082827.png?raw=true)
+
+![App Screenshot](https://github.com/Manish-Tamang/opera-surgical-centre/blob/main/src/images/Screenshot%202024-08-15%20071428.png?raw=true)
+
+![App Screenshot](https://github.com/Manish-Tamang/opera-surgical-centre/blob/main/src/images/Screenshot%202024-08-15%20071457.png?raw=true)
+
+![App Screenshot](https://github.com/Manish-Tamang/opera-surgical-centre/blob/main/src/images/Screenshot%202024-08-15%20071519.png?raw=true)
+
+![App Screenshot](https://github.com/Manish-Tamang/opera-surgical-centre/blob/main/src/images/Screenshot%202024-08-15%20071534.png?raw=true)
 
 ## Run Locally
 
