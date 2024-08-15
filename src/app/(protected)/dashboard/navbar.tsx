@@ -73,6 +73,12 @@ function Navbar() {
                 Dashboard
               </a>
               <a
+                href="/dashboard/patients"
+                className={`inline-flex items-center px-1 pt-1 text-sm font-medium`}
+              >
+                Patients
+              </a>
+              <a
                 href="/dashboard/contact"
                 className={`inline-flex items-center px-1 pt-1 text-sm font-medium`}
               >
