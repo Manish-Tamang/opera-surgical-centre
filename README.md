@@ -100,8 +100,8 @@ Start the server
 
 ## Support
 
-For support, email maneshtamang833@gmail.com or check my website https://manishtamang.xyz
+For support, email maneshtamang833@gmail.com or check my website https://manishtamang.com
 
 ## Feedback
 
-If you have any feedback, please leave a feedback here [Feedback](https://manishtamang.xyz/contact)
+If you have any feedback, please leave a feedback here [Feedback](https://manishtamang.com/contact)
