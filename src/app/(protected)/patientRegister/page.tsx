@@ -36,7 +36,7 @@ function PatientRegistration() {
     pastMedicalHistory: '',
     identificationType: '',
     identificationNumber: '',
-    identificationDocument: '',
+    identificationDocument: null as File | null,
     consentTreatment: false,
     consentDisclosure: false,
     consentPrivacyPolicy: false,
@@ -45,7 +45,7 @@ function PatientRegistration() {
   const router = useRouter()
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
-    const { name, value, type, checked } = e.target
+    const { name, value, type, checked } = e.target as HTMLInputElement
     setFormData((prevData) => ({
       ...prevData,
       [name]: type === 'checkbox' ? checked : value,
@@ -238,7 +238,7 @@ function PatientRegistration() {
             label="Scanned Copy of Identification Document"
             name="identificationDocument"
             type="file"
-            onChange={(e) => setFormData({ ...formData, identificationDocument: e.target.files[0] })}
+            onChange={(e) => setFormData({ ...formData, identificationDocument: e.target.files ? e.target.files[0] : null })}
           />
           <div className="space-y-2">
             <label className="flex items-center space-x-3">
