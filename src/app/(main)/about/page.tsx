@@ -11,49 +11,39 @@ const values = [
   {
     name: 'Compassion',
     description:
-      'Compassion involves consistently acting with empathy and integrity. It means understanding and sharing the feelings of others, showing kindness, and providing support when needed. Acting with integrity ensures that our actions are honest and ethical, building trust and a sense of community.',
+      'Acting with empathy, kindness, and integrity to build trust and support others.',
   },
   {
     name: 'Accountability',
     description:
-      'Accountability means taking responsibility for our decisions and actions. It involves owning up to mistakes, learning from them, and being transparent about our processes. This fosters a culture of trust and reliability, where everyone feels responsible for the success and integrity of our work.',
+      'Taking responsibility for actions, learning from mistakes, and fostering trust.',
   },
   {
     name: 'Respect',
     description:
-      'Respect for the rights, beliefs, and choices of every individual is fundamental. This value emphasizes the importance of valuing diversity and treating everyone with dignity. By respecting others, we create an inclusive environment where everyone feels valued and heard.',
+      'Valuing diversity and treating everyone with dignity in an inclusive environment.',
   },
   {
     name: 'Excellence',
     description:
-      'Excellence is about inspiring and motivating innovation and achievement. It means striving for the highest standards in everything we do and continually seeking ways to improve. By aiming for excellence, we push boundaries, encourage creativity, and achieve outstanding results.',
+      'Striving for the highest standards, fostering innovation, and pushing boundaries.',
   },
   {
     name: 'Safety',
     description:
-      'Prioritizing safety as an essential part of everyday practice ensures that our environment is secure and supportive. It involves being proactive about identifying and mitigating risks, promoting health and well-being, and ensuring that everyone feels safe in their surroundings.',
+      'Ensuring a secure, healthy environment by proactively managing risks.',
   },
   {
     name: 'Collaboration',
     description:
-      'Collaboration is the value of working together to achieve common goals. It involves open communication, mutual respect, and the sharing of knowledge and resources. Through collaboration, we harness the strengths and perspectives of different individuals and teams, leading to more innovative solutions and better outcomes. Working together ensures that we can achieve more than we could individually, fostering a sense of unity and collective purpose.',
+      'Working together through open communication and shared knowledge for better outcomes.',
   },
-]
-const team = [
-  {
-    name: 'Michael Foster',
-    role: 'Co-Founder / CTO',
-    imageUrl:
-      'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-  },
-  // More people...
 ]
 
-export default function Example() {
+export default function About() {
   return (
     <div className="bg-white">
       <main className="isolate">
-        {/* Hero section */}
         <div className="relative isolate -z-10">
           <svg
             aria-hidden="true"
@@ -167,8 +157,6 @@ export default function Example() {
             </div>
           </div>
         </div>
-
-        {/* Content section */}
         <div className="mx-auto -mt-12 max-w-7xl px-6 sm:mt-0 lg:px-8 xl:-mt-8">
           <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
@@ -220,8 +208,6 @@ export default function Example() {
             </div>
           </div>
         </div>
-
-        {/* Image section */}
         <div className="mt-32 sm:mt-40 xl:mx-auto xl:max-w-7xl xl:px-8">
           <Image
             alt=""
@@ -229,8 +215,6 @@ export default function Example() {
             className="aspect-[5/2] w-full object-cover xl:rounded-3xl"
           />
         </div>
-
-        {/* Values section */}
         <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
@@ -250,8 +234,6 @@ export default function Example() {
             ))}
           </dl>
         </div>
-
-        {/* Logo cloud */}
         <div className="relative isolate -z-10 mt-32 sm:mt-48">
           <div className="absolute inset-x-0 top-1/2 -z-10 flex -translate-y-1/2 justify-center overflow-hidden [mask-image:radial-gradient(50%_45%_at_50%_55%,white,transparent)]">
             <svg
