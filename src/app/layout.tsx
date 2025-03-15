@@ -12,10 +12,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: {
-    template: '%s - Opera Surgical Centre',
-    default: 'Opera Surgical Centre',
-  },
+  title: 'Opera Surgical Centre',
   description: 'Opera Surgical Centre',
 }
 

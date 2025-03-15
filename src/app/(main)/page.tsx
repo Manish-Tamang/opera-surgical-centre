@@ -12,12 +12,7 @@ export default function Home() {
     <>
     <Cookies />
       <Hero />
-      {/* <PrimaryFeatures />
-      <SecondaryFeatures />
-      <CallToAction /> */}
       <Reviews />
-      {/* <Pricing />
-      <Faqs /> */}
     </>
   )
 }
