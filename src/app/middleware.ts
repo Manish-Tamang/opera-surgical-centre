@@ -1,7 +1,6 @@
-// app/middleware.ts
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
-import { verifyIdToken } from '@/lib/firebaseAdmin'; // Adjust path as necessary
+import { verifyIdToken } from '@/lib/firebaseAdmin'; 
 
 export async function middleware(req: NextRequest) {
   const token = req.cookies.get('userAuthToken')?.value;
@@ -22,8 +21,6 @@ export async function middleware(req: NextRequest) {
 
   return NextResponse.next();
 }
-
-// Configure the middleware to run for specific paths
 export const config = {
   matcher: ['/protected/:path*'],
 };
