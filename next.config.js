@@ -1,6 +1,6 @@
 const nextConfig = {
   images: {
-    domains: ['firebasestorage.googleapis.com'], // Add Firebase Storage domain here
+    domains: ['firebasestorage.googleapis.com'], 
   },
   async redirects() {
     return [
